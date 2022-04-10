@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+:root {
+    
+    --primary: #2fd6e2;
+    --secondary: #dc2343;
+}
+header {
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 0px;
+    background: linear-gradient(90deg, var(--primary) 50%, #208f97);
+    color:  var(--secondary);
+
+}
+
+header img {
+    height: 5rem;
+    border-radius: 20px;
+    margin-left: 3rem;
+    box-shadow: .5px .5px  5px 1px black;
+}
+
+.text-muted {
+    color: white
+}
+nav {
+    width: 100%;
+    margin-bottom: 0;
+    align-self: flex-end;
+    
+}
+nav a {
+    background-color: var(--secondary);
+    padding: .1rem .3rem;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 600;
+    
+    font-size: smaller;
+    width: 25%;
+}
+nav a:hover {
+    color: #208f97;
+}
+.navbar-nav {
+    width: 30vw;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 65vw;
+    
+}
+.navbar {
+    margin-bottom: 0;
+    background-color: var(--secondary);
+}
+.active {
+    text-decoration: underline;
+   
+}
+.card-img-top {
+    height: 30vh;
+  
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 4rem;
+}
+section {
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#carouselExampleFade {
+    
+    width: 25vw;
+    height: 45vh;
+   
+    
+}
+.carousel-inner {
+    width: 100%;
+    height:100%;
+    box-shadow: .5px .5px  5px 1px black;
+}
+.carousel-item img{
+   
+    height: 50vh;
+}
+section h3 {
+    margin-top: 3rem;
+    margin-left: 1vw;
+    background-color: var(--secondary);
+    color: var(--primary);
+    width: 85%;
+    text-align: center;
+}
+.bienvenida {
+    width: 90%;
+    text-align: justify;
+    text-indent: .5vw;
+    color: var(--secondary);
+    font-weight: 400;
+    
+}
+.bienvenida p {
+    padding: 0;
+    margin: 1.5rem;
+    line-height: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.carrusel {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.iframe {
+    
+    background: linear-gradient(90deg, var(--primary) 50%, #208f97);
+    margin-top: 7rem;
+    margin-bottom: 5rem;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+}
+.iframe h3 {
+    width: 100%;
+    text-align: center;
+    padding-top: 0;
+    background-color: var(--secondary);
+    color: var(--primary);
+    margin: 0;
+}
+iframe {
+    width: 30rem;
+    height: 15rem;
+    margin: 3rem 0;
+    box-shadow: .5px .5px  5px 1px black;
+    transition: .2s .1s;
+}
+iframe:hover {
+    transform: scale(1.05);
+}
+.p-iframe {
+    
+    font-weight: bold;
+
+}
+.card {
+    height: 25rem;
+    margin-top: 3rem;
+    background: linear-gradient(90deg, var(--primary) 50%, #208f97);
+    color: var(--secondary);
+    box-shadow: .5px .5px  5px 1px black;
+    transition: .3s .1s;
+}
+.card:hover {
+    box-shadow: .5px .5px  5px 5px var(--primary);
+    transform: scale(1.05);
+}
+.card img {
+    height: 65%;
+}
+.card p {
+    font-weight: 600;
+}
+.card-body {
+    overflow-y: scroll;
+}
+.stock {
+    background-color: var(--secondary);
+    color: white;
+    width: fit-content;
+    padding: .1rem .3rem;
+}
+.card-img-top{
+    border: .5px solid #208f97;
+}
+main h2 {
+    width: 100%;
+    text-align: center;
+}
+.card button {
+    background-color: var(--secondary);
+    color: white;
+    padding: .1rem .2rem;
+}
+
+
